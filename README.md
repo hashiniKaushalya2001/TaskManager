@@ -82,6 +82,8 @@ Use the Register button to create a new account.
 Login to access authenticated pages.
 
 Screenshots
+![Welcome](https://github.com/user-attachments/assets/d60b471a-55e2-49b5-a715-770718ed8532)
+
 
 Optional: Add screenshot of your dashboard or pages.
 
