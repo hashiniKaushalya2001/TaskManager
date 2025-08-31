@@ -1,63 +1,96 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# My Laravel App
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A simple Laravel-based Task Manager application to manage daily tasks efficiently.  
+---
 
-## About Laravel
+## Features
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- Laravel 10+ framework
+- Clean and professional UI using Tailwind CSS
+- User authentication (Login & Register)
+- Minimal, modern landing page design
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Prerequisites
 
-## Learning Laravel
+Before running this project, make sure you have:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- PHP >= 8.1
+- Composer
+- Node.js & NPM
+- MySQL or any supported database
+- Git
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Installation
 
-## Laravel Sponsors
+1. **Clone the repository**
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### Premium Partners
+git clone https://github.com/hashiniKaushalya2001/TaskManager.git
+cd TaskManager
+Install PHP dependencies using Composer
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
 
-## Contributing
+Copy code
+composer install
+Install frontend dependencies using NPM
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+Copy code
+npm install
+npm run dev
+Copy .env file and configure environment variables
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+Copy code
+cp .env.example .env
+Set your database credentials:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+ini
+Copy code
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=task_manager
+DB_USERNAME=root
+DB_PASSWORD=
+Generate application key
 
-## License
 
+Copy code
+php artisan key:generate
+Run database migrations
+
+
+Copy code
+php artisan migrate
+Serve the application
+
+
+Copy code
+php artisan serve
+The application will be accessible at http://127.0.0.1:8000
+
+Usage
+Visit http://127.0.0.1:8000 to see the welcome page.
+
+Use the Register button to create a new account.
+
+Login to access authenticated pages.
+
+---
+## Screenshots
+<img width="1306" height="555" alt="Welcome" src="https://github.com/user-attachments/assets/cd45c66a-93c2-4005-a08b-2283a122c006" />
+<img width="1020" height="537" alt="Dashboard" src="https://github.com/user-attachments/assets/70400a7a-e1aa-4c3e-8804-669231307a92" />
+<img width="1082" height="523" alt="Tasks" src="https://github.com/user-attachments/assets/ba89ad96-8d39-48d0-a8b3-f11f2eca6186" />
+<img width="987" height="529" alt="Database1" src="https://github.com/user-attachments/assets/0026f6e1-a97b-492f-a1ab-1696be0e0eed" />
+<img width="917" height="481" alt="Database2" src="https://github.com/user-attachments/assets/9cb6ec56-45ed-462c-ac80-251e5e391465" />
+
+
+<<<<<<< HEAD
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 # Task-Manager
@@ -80,3 +113,5 @@ A simple Laravel-based Task Manager application.
 
 ### Database2
 ![Database2 Screenshot](screenshots/Database2.png)
+=======
+>>>>>>> 16c6091b6f80bf470a60019b657ca2778309abeb
