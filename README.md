@@ -90,28 +90,4 @@ Login to access authenticated pages.
 <img width="917" height="481" alt="Database2" src="https://github.com/user-attachments/assets/9cb6ec56-45ed-462c-ac80-251e5e391465" />
 
 
-<<<<<<< HEAD
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-# Task-Manager
-
-A simple Laravel-based Task Manager application.
-
-## screenshots
-
-### Welcome
-![Welcome Screenshot](screenshots/Welcome.png)
-
-### Dashboard
-![Dashboard Screenshot](screenshots/Dashboard.png)
-
-### Tasks
-![Tasks Screenshot](screenshots/Task.png)
-
-### Database1
-![Database1 Screenshot](screenshots/Database1.png)
-
-### Database2
-![Database2 Screenshot](screenshots/Database2.png)
-=======
->>>>>>> 16c6091b6f80bf470a60019b657ca2778309abeb
