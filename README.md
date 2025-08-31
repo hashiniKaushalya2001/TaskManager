@@ -28,23 +28,23 @@ Before running this project, make sure you have:
 
 1. **Clone the repository**
 
-```bash
+
 git clone https://github.com/hashiniKaushalya2001/TaskManager.git
 cd TaskManager
 Install PHP dependencies using Composer
 
-bash
+
 Copy code
 composer install
 Install frontend dependencies using NPM
 
-bash
+
 Copy code
 npm install
 npm run dev
 Copy .env file and configure environment variables
 
-bash
+
 Copy code
 cp .env.example .env
 Set your database credentials:
@@ -59,17 +59,17 @@ DB_USERNAME=root
 DB_PASSWORD=
 Generate application key
 
-bash
+
 Copy code
 php artisan key:generate
 Run database migrations
 
-bash
+
 Copy code
 php artisan migrate
 Serve the application
 
-bash
+
 Copy code
 php artisan serve
 The application will be accessible at http://127.0.0.1:8000
@@ -81,50 +81,12 @@ Use the Register button to create a new account.
 
 Login to access authenticated pages.
 
-Screenshots
-![Welcome](https://github.com/user-attachments/assets/d60b471a-55e2-49b5-a715-770718ed8532)
-
-
-Optional: Add screenshot of your dashboard or pages.
-
-Contributing
-Fork the repository
-
-Create a new branch (git checkout -b feature/feature-name)
-
-Make your changes
-
-Commit your changes (git commit -m 'Add new feature')
-
-Push to the branch (git push origin feature/feature-name)
-
-Open a Pull Request
-
-License
-This project is licensed under the MIT License.
-
-Contact
-Your Name – [your email]
-
-Project Link: https://github.com/yourusername/your-repo-name
-
-yaml
-Copy code
-
 ---
+## Screenshots
+<img width="1306" height="555" alt="Welcome" src="https://github.com/user-attachments/assets/cd45c66a-93c2-4005-a08b-2283a122c006" />
+<img width="1020" height="537" alt="Dashboard" src="https://github.com/user-attachments/assets/70400a7a-e1aa-4c3e-8804-669231307a92" />
+<img width="1082" height="523" alt="Tasks" src="https://github.com/user-attachments/assets/ba89ad96-8d39-48d0-a8b3-f11f2eca6186" />
+<img width="987" height="529" alt="Database1" src="https://github.com/user-attachments/assets/0026f6e1-a97b-492f-a1ab-1696be0e0eed" />
+<img width="917" height="481" alt="Database2" src="https://github.com/user-attachments/assets/9cb6ec56-45ed-462c-ac80-251e5e391465" />
 
-✅ This README covers:  
-- Project overview  
-- Features  
-- Prerequisites  
-- Step-by-step **setup instructions**  
-- Usage guide  
-- Optional screenshot section  
-- Contributing guide  
-- License and contact info  
 
----
-
-If you want, I can also **add a nice badge section** for **Laravel version, PHP version, License, and Build Status** to make it **look professional on GitHub**.  
-
-Do you want me to do that?
